@@ -1,0 +1,43 @@
+23 maj 2023 11:01:07, Exception was thrown: null
+java.lang.NullPointerException
+	at se.kth.iv1350.model.ItemNotFoundException.<init>(ItemNotFoundException.java:15)
+	at se.kth.iv1350.model.Cart.handleItemInCart(Cart.java:64)
+	at se.kth.iv1350.controller.Controller.scanItem(Controller.java:53)
+	at se.kth.iv1350.view.View.scanItem(View.java:74)
+	at se.kth.iv1350.view.View.startScanningItems(View.java:63)
+	at se.kth.iv1350.view.View.runTestSale(View.java:40)
+	at se.kth.iv1350.startUp.Main.main(Main.java:25)
+
+
+23 maj 2023 11:04:51, Exception was thrown: null
+java.lang.NullPointerException
+	at se.kth.iv1350.model.ItemNotFoundException.<init>(ItemNotFoundException.java:15)
+	at se.kth.iv1350.model.Cart.handleItemInCart(Cart.java:64)
+	at se.kth.iv1350.controller.Controller.scanItem(Controller.java:53)
+	at se.kth.iv1350.view.View.scanItem(View.java:74)
+	at se.kth.iv1350.view.View.startScanningItems(View.java:63)
+	at se.kth.iv1350.view.View.runTestSale(View.java:40)
+	at se.kth.iv1350.startUp.Main.main(Main.java:25)
+
+
+23 maj 2023 11:05:58, Exception was thrown: null
+java.lang.NullPointerException
+	at se.kth.iv1350.model.ItemNotFoundException.<init>(ItemNotFoundException.java:15)
+	at se.kth.iv1350.model.Cart.handleItemInCart(Cart.java:64)
+	at se.kth.iv1350.controller.Controller.scanItem(Controller.java:53)
+	at se.kth.iv1350.view.View.scanItem(View.java:75)
+	at se.kth.iv1350.view.View.startScanningItems(View.java:64)
+	at se.kth.iv1350.view.View.runTestSale(View.java:40)
+	at se.kth.iv1350.startUp.Main.main(Main.java:25)
+
+
+23 maj 2023 11:23:33, Exception was thrown: Unable to find the item pineapplein inventory
+se.kth.iv1350.model.ItemNotFoundException: Unable to find the item pineapplein inventory
+	at se.kth.iv1350.model.Cart.handleItemInCart(Cart.java:64)
+	at se.kth.iv1350.controller.Controller.scanItem(Controller.java:53)
+	at se.kth.iv1350.view.View.scanItem(View.java:72)
+	at se.kth.iv1350.view.View.startScanningItems(View.java:61)
+	at se.kth.iv1350.view.View.runTestSale(View.java:40)
+	at se.kth.iv1350.startUp.Main.main(Main.java:25)
+
+
